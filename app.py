@@ -9,7 +9,7 @@ def homepage():
 
 @app.route('/dashboard/')
 def dashboard():
-    #return render_template("main.html")
+    return render_template("dashboard1.html")
     return "hy this is my dashboard page"
 
 
